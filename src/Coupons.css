@@ -1,0 +1,44 @@
+/* src/Coupons.css */
+.coupons-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .coupons-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .coupons-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .coupon-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .coupon-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .coupon-item h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .coupon-item p {
+    color: #666;
+  }
+  
